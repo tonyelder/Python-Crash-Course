@@ -18,7 +18,11 @@
 # ~ print (message)
 
 # 2.5
-quote = 'Walt Disney once said - "The way to get started is to quit talking and begin doing."' 
-print (quote)
+# quote = 'Walt Disney once said - "The way to get started is to quit talking and begin doing."' 
+# print (quote)
 
-
+# 2.6
+person = "Walt Disney"
+quote = '"The way to get started is to quit talking and begin doing."'
+output = person + " once said - " + quote
+print (output)
