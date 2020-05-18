@@ -22,7 +22,20 @@
 # print (quote)
 
 # 2.6
-person = "Walt Disney"
-quote = '"The way to get started is to quit talking and begin doing."'
-output = person + " once said - " + quote
-print (output)
+# person = "Walt Disney"
+# quote = '"The way to get started is to quit talking and begin doing."'
+# output = person + " once said - " + quote
+# print (output)
+
+# 2.7
+name = "\n\tTony Elder\t"
+leftstrip = name.lstrip()
+rightstrip = name.rstrip()
+allstrip = name.strip()
+
+message1 = "The original is \n" + name + ".\n"
+message2 = "With left hand whitespace stripped out it is \n" + leftstrip + ".\n"
+message3 = "With right hand whitespace stripped out it is \n" + rightstrip + ".\n"
+message4 = "With all whitespace stripped out it is \n" + allstrip
+wholemessage = message1 + message2 + message3 + message4  
+print (wholemessage)
