@@ -18,4 +18,7 @@
 # ~ print (message)
 
 # 2.5
+quote = 'Walt Disney once said - "The way to get started is to quit talking and begin doing."' 
+print (quote)
+
 
